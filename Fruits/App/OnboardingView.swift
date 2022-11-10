@@ -15,9 +15,8 @@ struct OnBoardingView: View {
     // MARK : - BODY
     var body: some View {
         TabView {
-            ForEach(0..<5) { item in
-//                FruitCardView()
-                Text("Cards")
+            ForEach(fruits[0...5]) { item in
+                FruitCardView(fruit: item)
             }//: LOOP
         } // : TAB
         .tabViewStyle(PageTabViewStyle())
@@ -29,6 +28,6 @@ struct OnBoardingView: View {
 
 struct OnBoardingView_switf_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingView()
+        OnBoardingView(fruits: fruitsData)
     }
 }
