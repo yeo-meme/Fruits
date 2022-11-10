@@ -17,11 +17,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(fruits) { item in
-                    FruitRowView(fruit: item)
+                ForEach(fruits.shuffled()) { item in
+                    NavigationLink(destination: FruitDetailView(fruit:item)) {
+                        FruitRowView(fruit: item)
+                            .padding(.vertical,4)
+                    }
                 }
             }
-        }
+            .navigationTitle("Fruits")
+        } //: NAVIGATION
     }
 }
 

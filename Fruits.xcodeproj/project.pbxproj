@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E427036291CC2FA00FABD23 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E427035291CC2FA00FABD23 /* FruitDetailView.swift */; };
 		3E70CEEB291B97FD005CF07D /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70CEEA291B97FD005CF07D /* FruitModel.swift */; };
 		3E70CEEE291B9964005CF07D /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70CEED291B9964005CF07D /* FruitData.swift */; };
 		3E976B9B291A3DD500730339 /* FruitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E976B9A291A3DD500730339 /* FruitsApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E427035291CC2FA00FABD23 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		3E70CEEA291B97FD005CF07D /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		3E70CEED291B9964005CF07D /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		3E976B97291A3DD500730339 /* Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 				3E976B9A291A3DD500730339 /* FruitsApp.swift */,
 				3E976B9C291A3DD500730339 /* ContentView.swift */,
 				3E976BB2291B950500730339 /* OnboardingView.swift */,
+				3E427035291CC2FA00FABD23 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				3E976BAD291A422300730339 /* FruitCardView.swift in Sources */,
 				3EC11EA6291C9F920072073D /* FruitRowView.swift in Sources */,
 				3E976BAF291A496500730339 /* StartButtonView.swift in Sources */,
+				3E427036291CC2FA00FABD23 /* FruitDetailView.swift in Sources */,
 				3E976B9D291A3DD500730339 /* ContentView.swift in Sources */,
 				3E976BB3291B950500730339 /* OnboardingView.swift in Sources */,
 				3E70CEEB291B97FD005CF07D /* FruitModel.swift in Sources */,
