@@ -63,6 +63,8 @@ struct FruitDetailView: View {
             }//: SCROLL
             .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
+        //아이패드 네이게이션
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

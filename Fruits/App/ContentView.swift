@@ -36,6 +36,8 @@ struct ContentView: View {
                 }
             )
         } //: NAVIGATION
+        //아이패드 네이게이션 
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
