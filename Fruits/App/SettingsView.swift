@@ -39,7 +39,7 @@ struct SettingsView: View {
                         // MARK: - SECTION 3
                     GroupBox(
                         label:SettingsLabelView(labeText: "Application", labelImage: "apps.iphone")) {
-//                            Divide r().padding(.vertical, 4)
+                        
                             
                             SettingsRowView(name: "Developer", content: "john / jane")
                             SettingsRowView(name: "Designer", content: "Robert Petras")
