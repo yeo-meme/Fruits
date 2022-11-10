@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     // MARK: - PROPERTIES
     
+    @Environment(\.presentationMode) var presentationMode
     // MARK: - PROPERTIES
     var body: some View {
         NavigationView{
@@ -18,9 +19,14 @@ struct SettingsView: View {
                 Text("hello")
                 }//VSTACK
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
+                .navigationBarItems(trailing:Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }){
+                    Image(systemName: "xmark")
+                })
                 .padding()
-            }
-            }
+            }//: SCROLL
+            }//: NAVIGATION
         }
     }
 
